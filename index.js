@@ -289,6 +289,7 @@ var appServer = function(config) {
   return self;
 };
 
+
 // a shortcut start(config) method to avoid creating an instance if not needed
 appServer.start = function(config) {
   var appServerInstance = new appServer(config);
